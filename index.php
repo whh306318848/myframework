@@ -22,6 +22,6 @@ include CORE.'/common/function.php';
 
 include CORE.'/imooc.php';
 
-spl_autoload_register('\core\imooc::load');
+spl_autoload_register('imooc::load');
 
 \core\imooc::run();
