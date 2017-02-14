@@ -10,8 +10,7 @@ class imooc
 {
     public static $classMap = array();
     public static function run() {
-        p('ok');
-        $route = new \core\route();
+        $route = new \core\lib\route();
     }
 
     /**
